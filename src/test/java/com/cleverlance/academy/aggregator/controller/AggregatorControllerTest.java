@@ -20,6 +20,11 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 @AutoConfigureMockMvc
 public class AggregatorControllerTest {
 
+    /**
+     * namokuju si, abych neukladal 'AggregatorController' class do promenne
+     * v pripade, ze nebude napr. '@RestController', projde to ale
+     * s '@AutoConfigureMockMvc' uz by nemelo
+     * */
     @Autowired
     public MockMvc mockMvc;
 
@@ -37,6 +42,9 @@ public class AggregatorControllerTest {
 
     }
 
+    /**
+     * Test nize neni z udevdenych duvodu doporucen psat
+     * */
 
 //    @Test
 //    void saveServerAndGetIdentificationsTest(){
