@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AggregatorController {
 
     /**
-     * metoda na vypsani 'welcome'
+     * metod welcome da na vypsani 'welcome'
      * */
 
 //    @GetMapping(path = "/welcome")
