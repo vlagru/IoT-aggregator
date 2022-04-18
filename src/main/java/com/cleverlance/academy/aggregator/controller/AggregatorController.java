@@ -43,6 +43,7 @@ public class AggregatorController {
     /**
      * post pro ulozeni na server
      * header: content-type application/json
+     * restman nebo postman
      */
 
     @PostMapping("/server")
